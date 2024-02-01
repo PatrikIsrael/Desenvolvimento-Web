@@ -1,61 +1,78 @@
 @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Honk&family=Marcellus&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Nunito:wght@200&display=swap" rel="stylesheet');
 * {
-    margin: 1%;
-    padding: 1%;
-    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
+/* Estilos do Corpo e da Página */
 body {
-    height: 100vh;
     background-color: black;
     color: white;
-    font-family: 'Archivo Black', sans-serif, 'Marcellus', serif;
-}
-
-.titulo {
-    color: #e7110a;
-}
-
-.apresentacao {
-    margin: 10% 11%;
+    font-family: 'Marcellus', serif, 'Archivo Black', sans-serif;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
 }
 
-.apresentacao__inico {
-    width: 615px;
+main.apresentacao {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding: 20px; 
+}
+
+/* Estilos da Seção de Apresentação */
+section.apresentacao_inicio {
+    max-width: 615px;
+    width: 100%;
     display: flex;
     flex-direction: column;
     gap: 40px;
 }
 
-.apresentacao__inicio__titulo {
+h1.apresentacao_inicio__titulo {
     font-size: 36px;
     margin-bottom: 10px;
 }
 
-.apresentacao_inicio__paragrafo {
+p.apresentacao_inicio__paragrafo {
     font-size: 24px;
 }
 
-.apresentacao__link {
+div.apresentacao__link {
     display: flex;
+    flex-direction: column;
+    align-items: center;
     justify-content: space-between;
+    }
+
+.apresentacao__titulo__links{
+    font-family: 'Nunito', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+
 }
 
-.apresentacao__botoes {
-    background-color: #e7110a;
+/* Estilos dos Botões */
+a.apresentacao__botoes {
     width: 280px;
-    top: 681px;
-    left: 692px;
     border-radius: 16px;
     padding: 16px;
-    gap: 16px;
+    margin-top: 20px; 
     text-align: center;
     font-weight: 600;
     font-size: 24px;
-    color: #000;
-    font-family: 'Marcellus', serif;
+    color: #ffff;
+    font-family: 'Nunito', sans-serif;
+    text-decoration: none;
+    border: 2px solid #e7110a;
+}
+
+/* Estilos do Título Especial */
+strong.titulo {
+    color: #e7110a;
 }
