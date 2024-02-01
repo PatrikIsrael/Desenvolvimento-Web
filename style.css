@@ -11,10 +11,8 @@ body {
     color: white;
     font-family: 'Marcellus', serif, 'Archivo Black', sans-serif;
     display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-    overflow: hidden;
+    flex-direction: column;
+    justify-content: space-between; 
 }
 
 main.apresentacao {
@@ -27,11 +25,12 @@ main.apresentacao {
 
 /* Estilos da Seção de Apresentação */
 section.apresentacao_inicio {
+   padding: 8% 10%;
     max-width: 615px;
     width: 100%;
     display: flex;
     flex-direction: column;
-    gap: 40px;
+    gap: 30px;
 }
 
 h1.apresentacao_inicio__titulo {
@@ -40,7 +39,7 @@ h1.apresentacao_inicio__titulo {
 }
 
 p.apresentacao_inicio__paragrafo {
-    font-size: 24px;
+    font-size: 22px;
 }
 
 div.apresentacao__link {
@@ -53,26 +52,43 @@ div.apresentacao__link {
 .apresentacao__titulo__links{
     font-family: 'Nunito', sans-serif;
     font-weight: 400;
-    font-size: 24px;
+    font-size: 22px;
 
 }
 
 /* Estilos dos Botões */
 a.apresentacao__botoes {
-    width: 280px;
-    border-radius: 16px;
-    padding: 16px;
-    margin-top: 20px; 
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    width: 260px;
+    border-radius: 20px;
+    padding: 10px;
+    margin-top: 15px; 
     text-align: center;
-    font-weight: 600;
-    font-size: 24px;
-    color: #ffff;
+    font-weight: 800;
+    font-size: 22px;
+    color: #e7110a;
     font-family: 'Nunito', sans-serif;
     text-decoration: none;
     border: 2px solid #e7110a;
 }
 
+a.apresentacao__botoes:hover {
+    background-color: #ffff;
+}
+ .rodape {
+    padding: 1px;
+    color: #070707;
+    background-color: #e7110a;
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+    font-size: 28px;
+    font-weight: 800;
+ }
+
 /* Estilos do Título Especial */
 strong.titulo {
     color: #e7110a;
 }
+
