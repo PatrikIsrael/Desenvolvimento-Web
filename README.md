@@ -4,7 +4,10 @@ Projeto para o curso HTML, CSS e JavaScript da Alura em conjunto com Oracle
 Este é o meu portfólio pessoal de desenvolvimento web, onde estou documentando e demonstrando minhas habilidades em HTML, CSS e JavaScript. Os projetos aqui apresentados foram desenvolvidos durante o curso da Alura em parceria com a Oracle Next Education. Essa jornada tem sido incrível, proporcionando um aprendizado sólido e prático na área de desenvolvimento web.
 
 Site pessoal 
+Home
 ![Home](https://github.com/PatrikIsrael/Desenvolvimento-Web/assets/119878626/d0478287-e11c-4d5b-985c-39bc8bfaf555)
+
+Sobre mim
 ![Sobre mim](https://github.com/PatrikIsrael/Desenvolvimento-Web/assets/119878626/e2e734f1-c550-49e6-ae72-120fd87cb466)
 
 
