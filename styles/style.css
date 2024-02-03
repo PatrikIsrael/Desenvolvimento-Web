@@ -1,5 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Honk&family=Marcellus&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Nunito:wght@200&display=swap" rel="stylesheet');
+
+:root {
+        --cor--primaria:#040D12;
+        --cor--secundaria:#93B1A6;
+        --cor--tercearia:#5C8374;
+
+        --font-primaria:'Marcellus', serif, 'Archivo Black', sans-serif;
+        --font-secundaria:'Nunito', sans-serif;
+}
+
+
 * {
     margin: 0;
     padding: 0;
@@ -7,9 +18,9 @@
 
 /* Estilos do Corpo e da Página */
 body {
-    background-color: black;
-    color: white;
-    font-family: 'Marcellus', serif, 'Archivo Black', sans-serif;
+    background-color: var(--cor--primaria);
+    color: var(--cor--secundaria);
+    font-family: var(--font-primaria);
     display: flex;
     flex-direction: column;
     justify-content: space-between; 
@@ -17,8 +28,8 @@ body {
 
 .cabecalho__menu__link{
     padding: 0%;
-    color:#e7110a;
-    font-family: 'Nunito', sans-serif;
+    color:var(--cor--tercearia);
+    font-family: var(--font-secundaria);
     font-size: 20px;
     font-weight: 600;
     text-decoration: none;
@@ -34,7 +45,7 @@ body {
 }
 
 a.cabecalho__menu__link:hover {
-    background-color: #ffff;
+    background-color:var(--cor--secundaria);
 }
 
 main.apresentacao {
@@ -73,7 +84,7 @@ div.apresentacao__link {
     }
 
 .apresentacao__titulo__links{
-    font-family: 'Nunito', sans-serif;
+    font-family:var(--font-secundaria);
     font-weight: 400;
     font-size: 22px;
 
@@ -91,27 +102,27 @@ a.apresentacao__botoes {
     text-align: center;
     font-weight: 800;
     font-size: 22px;
-    color: #e7110a;
-    font-family: 'Nunito', sans-serif;
+    color:var(--cor--tercearia);
+    font-family: var(--font-secundaria);
     text-decoration: none;
-    border: 2px solid #e7110a;
+    border: 2px solid var(--cor--tercearia);
 }
 
 a.apresentacao__botoes:hover {
-    background-color: #ffff;
+    background-color: var(--cor--secundaria);
 }
  .rodape {
     padding: 1px;
-    color: #070707;
-    background-color: #e7110a;
+    color: var(--cor--primaria);
+    background-color: var(--cor--tercearia);
     text-align: center;
-    font-family: 'Nunito', sans-serif;
+    font-family: var(--font-secundaria);
     font-size: 28px;
     font-weight: 800;
  }
 
 /* Estilos do Título Especial */
 strong.titulo {
-    color: #e7110a;
+    color: var(--cor--tercearia);
 }
 
