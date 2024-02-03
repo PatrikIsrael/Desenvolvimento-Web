@@ -15,6 +15,28 @@ body {
     justify-content: space-between; 
 }
 
+.cabecalho__menu__link{
+    padding: 0%;
+    color:#e7110a;
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.cabecalho{
+    padding: 2% 0% 0% 15%;
+}
+
+.cabecalho__menu{
+    display: flex;
+    gap: 80px;
+}
+
+a.cabecalho__menu__link:hover {
+    background-color: #ffff;
+}
+
 main.apresentacao {
     display: flex;
     justify-content: space-between;
@@ -25,7 +47,7 @@ main.apresentacao {
 
 /* Estilos da Seção de Apresentação */
 section.apresentacao_inicio {
-   padding: 8% 10%;
+   padding: 3% 10%;
     max-width: 615px;
     width: 100%;
     display: flex;
