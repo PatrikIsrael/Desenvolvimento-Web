@@ -46,6 +46,8 @@ body {
 
 a.cabecalho__menu__link:hover {
     background-color:var(--cor--secundaria);
+    font-size: 1.735rem;
+
 }
 
 main.apresentacao {
@@ -53,13 +55,14 @@ main.apresentacao {
     justify-content: space-between;
     align-items: center;
     text-align: center;
-    padding: 20px; 
+    padding: 20px;
+    gap: 82px;
 }
 
 /* Estilos da Seção de Apresentação */
 section.apresentacao_inicio {
-   padding: 3% 10%;
-    max-width: 615px;
+    padding: 3% 10%;
+    max-width: 50%;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -86,7 +89,7 @@ div.apresentacao__link {
 .apresentacao__titulo__links{
     font-family:var(--font-secundaria);
     font-weight: 400;
-    font-size: 1.375rem;
+    font-size: 1.735rem;
 
 }
 
@@ -95,7 +98,7 @@ a.apresentacao__botoes {
     display: flex;
     justify-content: center;
     gap: 16px;
-    width: 260px;
+    width: 50%;
     border-radius: 20px;
     padding: 10px;
     margin-top: 15px; 
@@ -111,6 +114,10 @@ a.apresentacao__botoes {
 a.apresentacao__botoes:hover {
     background-color: var(--cor--secundaria);
 }
+
+.apresentacao__foco{
+    width: 50%;
+}
  .rodape {
     padding: 1px;
     color: var(--cor--primaria);
@@ -124,5 +131,25 @@ a.apresentacao__botoes:hover {
 /* Estilos do Título Especial */
 strong.titulo {
     color: var(--cor--tercearia);
+}
+
+@media (max-width: 1200px) {
+    .cabecalho {
+        padding: 10%;
+    }
+
+    .cabecalho__menu {
+        justify-content: center;
+    }
+
+    .apresentacao {
+        flex-direction: column-reverse;
+        padding: 5%;
+    }
+
+    .apresentacao_inicio {
+        width: 100%;
+        margin: 0%;
+    }
 }
 
