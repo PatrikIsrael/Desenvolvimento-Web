@@ -30,7 +30,7 @@ body {
     padding: 0%;
     color:var(--cor--tercearia);
     font-family: var(--font-secundaria);
-    font-size: 20px;
+    font-size: 1.15rem;
     font-weight: 600;
     text-decoration: none;
 }
@@ -67,12 +67,12 @@ section.apresentacao_inicio {
 }
 
 h1.apresentacao_inicio__titulo {
-    font-size: 36px;
+    font-size: 2.25rem;
     margin-bottom: 15px;
 }
 
 p.apresentacao_inicio__paragrafo {
-    font-size: 22px;
+    font-size: 1.735rem;
     margin-bottom: 15px;
 }
 
@@ -86,7 +86,7 @@ div.apresentacao__link {
 .apresentacao__titulo__links{
     font-family:var(--font-secundaria);
     font-weight: 400;
-    font-size: 22px;
+    font-size: 1.375rem;
 
 }
 
@@ -101,7 +101,7 @@ a.apresentacao__botoes {
     margin-top: 15px; 
     text-align: center;
     font-weight: 800;
-    font-size: 22px;
+    font-size: 1.375rem;
     color:var(--cor--tercearia);
     font-family: var(--font-secundaria);
     text-decoration: none;
@@ -117,7 +117,7 @@ a.apresentacao__botoes:hover {
     background-color: var(--cor--tercearia);
     text-align: center;
     font-family: var(--font-secundaria);
-    font-size: 28px;
+    font-size: 1.75rem;
     font-weight: 800;
  }
 
